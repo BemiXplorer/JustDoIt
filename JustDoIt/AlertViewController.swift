@@ -15,6 +15,7 @@ class AlertViewController: UIViewController {
     var titledesctet = String()
     var taskToDelete = String()
     weak var delegate: AlertViewControllerDelegate? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
